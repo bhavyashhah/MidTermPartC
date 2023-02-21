@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package midtermexam_versiona_extensioncode;
-
+import java.util.*;
 /**
  * The user profile for the OnlineVids system. The user has a userID
  * and a favourite genre that must be one of the choices in the
@@ -18,7 +18,7 @@ public class UserProfile
     
     private String userID;//the userID
     private String genre;// the user's preferred genre of movie
-    private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
+    String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
     
     /**
      * A constructor that takes in the userID and the favourite genre
@@ -30,6 +30,12 @@ public class UserProfile
         userID = givenID;
         genre= givenGenre;
     }
+
+    UserProfile() {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
+
+    
 
     /**
      * A getter for the userID
