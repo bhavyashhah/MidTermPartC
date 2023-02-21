@@ -8,7 +8,8 @@ import java.util.Scanner;
 
 /**
  *
- * @author Bhavy
+ My name is Bhavya Shah
+ I am from India
  */
 public class TestUserprofile {
     public static void main(String[] args){
